@@ -254,7 +254,7 @@ public class Calculator {
                 ia = (long)(a);
                 operator = "pow";
 
-                display.setText(""); // set display text null beacause to store another number directly
+                display.setText(""); // set display text null beacause to store another number and get that number directly by using (display.getText)
 
             }
         });
